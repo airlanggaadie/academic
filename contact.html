@@ -9,15 +9,25 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Anton|Bebas+Neue|Satisfy&display=swap" rel="stylesheet">
+  <style>
+    .breadcrumb-item+.breadcrumb-item::before {
+      content: ">";
+    }
+  </style>
   <title></title>
 </head>
 
 <body>
   <div class="container-fluid">
-    <nav aria-label="breadcrumb bg-light">
-      <ol class="breadcrumb bg-light">
+    <div class="jumbotron jumbotron-fluid" style="background-image: url(https://www.uph.edu/wp-content/uploads/2018/08/ADMISSION-BANNER.jpg); background-size: cover; height: 400px; width: 100%;">
+      <div class="container">
+        <h1 class="display-4" style="font-weight: bold; color: white;">ABOUT US</h1>
+      </div>
+    </div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb bg-white">
         <li class="breadcrumb-item"><a href="#">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+        <li class="breadcrumb-item active" aria-current="page">About Us</li>
       </ol>
     </nav>
     <div class="container">
@@ -27,7 +37,8 @@
           <div class="card" style="border-style:none;">
             <div class="card-body">
               <h1 class="card-title" style="font-family: 'Satisfy', cursive;">Our Purpose</h1>
-              <p class="card-text" style="font-family: 'Anton', sans-serif">Are you looking for a holistic education with a community who cares about you and your personal development as a scholar, leader and citizen? Do you know UPH is the only Christian university in Indonesia with Liberal Arts as our foundation? Come and be part of the UPH family today!</p>
+              <p class="card-text" style="font-family: 'Anton', sans-serif">Are you looking for a holistic education with a community who cares about you and your personal development as a scholar, leader and citizen? Do you know UPH is the only
+                Christian university in Indonesia with Liberal Arts as our foundation? Come and be part of the UPH family today!</p>
               <a href="#" class="card-link" style="font-family: 'Bebas Neue', cursive;">Read more</a>
             </div>
           </div>
@@ -45,7 +56,8 @@
           <div class="card" style="border-style:none;">
             <div class="card-body">
               <h1 class="card-title" style="font-family: 'Satisfy', cursive;">Our People</h1>
-              <p class="card-text" style="font-family: 'Anton', sans-serif">Our people are our most valuable assets. We believe in finding the right person for the right job according to their passion, purpose and calling. We carefully handpick our lecturers who are not only competent but have a heart for educating our future leaders. We work together and we grow together as a family</p>
+              <p class="card-text" style="font-family: 'Anton', sans-serif">Our people are our most valuable assets. We believe in finding the right person for the right job according to their passion, purpose and calling. We carefully handpick our
+                lecturers who are not only competent but have a heart for educating our future leaders. We work together and we grow together as a family</p>
               <a href="#" class="card-link" style="font-family: 'Bebas Neue', cursive;">Read more</a>
             </div>
           </div>
@@ -89,7 +101,8 @@
           <div class="card" style="border-style:none;">
             <div class="card-body">
               <h1 class="card-title" style="font-family: 'Satisfy', cursive;">Our Campuses</h1>
-              <p class="card-text" style="font-family: 'Anton', sans-serif">All our campuses are safe, secure, and equipped with facilities to enhance your learning experience and skills building. Schedule a free campus tour today! Want to see it now? Visit our 360-virtual tour.</p>
+              <p class="card-text" style="font-family: 'Anton', sans-serif">All our campuses are safe, secure, and equipped with facilities to enhance your learning experience and skills building. Schedule a free campus tour today! Want to see it
+                now? Visit our 360-virtual tour.</p>
               <a href="#" class="card-link" style="font-family: 'Bebas Neue', cursive;">Read more</a>
             </div>
           </div>
@@ -99,14 +112,41 @@
         </div>
       </div>
     </div>
+    <div class="card-group">
+      <div class="card" style="background-color: red;" box-shadow: 20px 20px 40px;>
+        <div class="card-body">
+          <h1 class="card-title" style="Color: white; font-weight:bold; text-align: end;">Keep<br>Exploring<span style="color: blue;">.</span></h1>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: bold;">360º VIRTUAL<br>TOUR</h5>
+          <p class="card-text">Let us show your around</p>
+          <a href="#" class="btn btn-primary">Take the Tour</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: bold;">RECENT NEWS</h5>
+          <p class="card-text">Get full information about update at UPH</p>
+          <a href="#" class="btn btn-primary">See Details</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: bold;">CONTACT US</h5>
+          <p class="card-text">More assistance, please do not hesitate to contact us.</p>
+          <a href="#" class="btn btn-primary">Drop a Message</a>
+        </div>
+      </div>
+    </div>
 
-  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>
