@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>UPH | Universitas Pelita Harapan</title>
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="admission.css">
+  <style>
+    .breadcrumb-item+.breadcrumb-item::before {
+      content: ">";
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="jumbotron jumbotron-fluid" style="background-image: url(https://www.uph.edu/wp-content/uploads/2018/08/ADMISSION-BANNER.jpg); background-size: cover; height: 400px; width: 100%;">
+    <div class="container">
+      <h1 class="display-4 justify-content-center text-align-center" style="font-weight: bold; color: white; text-shadow: 2px 2px 1px grey;">LIVE AT UPH</h1>
+      <video poster="https://www.uph.edu/wp-content/uploads/2019/06/life-at-uph-video-preview.jpg " id="bgvid" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class=""
+        style="background-size: cover; transform: translateX(-50%) translateY(-50%); min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -100; position: absolute; top: 100%; left: 50%; transition: 1s opacity;">
+        <!--- Video needs to be muted, since Chrome 66+ will not autoplay video with sound. WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button -->
+        <source src=" https://www.uph.edu/wp-content/uploads/2018/12/Test-Video-for-Looping-2mb.mp4 " type="video/webm">
+        <source src=" https://www.uph.edu/wp-content/uploads/2018/12/Test-Video-for-Looping-2mb.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb bg-white">
+        <li class="breadcrumb-item" style="text-shadow: 1px 1px 1px grey;"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Life At UPH</li>
+      </ol>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="row" style="margin-bottom: 200px;">
+      <div class="col-md-4 d-flex align-items-center">
+        <div class="card" style="border-style:none;">
+          <div class="card-body">
+            <h1 class="card-title" style="font-family: 'Satisfy', cursive; color: red; text-shadow: 2px 2px 1px grey; text-align: center;">Life on<br>Campus</h1>
+            <p class="card-text" style="font-family: 'Anton', sans-serif; text-shadow: 1px 1px 1px black;">Education isn't just about getting a degree; thus, it doesn't cease outside classroom. In UPH, Students are encouraged to thrive in their
+              characters & talents in campus communities aligned with their passions & callings.</p>
+            <a href="#" class="card-link" style="font-family: 'Bebas Neue', cursive; text-shadow: 1px 1px 1px black;">——— discover student activites</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <img src="https://www.uph.edu/wp-content/uploads/2019/01/Group-41-300x256-645x560-c-default-copy-300x260-645x560-c-default.png" alt="Image Error" class="img-thumbnail" style="box-shadow: 5px 5px gray;">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row" style="display: flex;flex-wrap: wrap; margin-right: -15px; margin-left: -15px; margin-bottom: 200px;">
+
+
+      <div class="col-sm-8" style="position: relative; width: 100%; min-height: 1px; padding-right: 15px; padding-left: 15px;">
+        <div class="uph-sc__video-and-desc__video uph-sc__video-and-desc__desktop launch-video-modal " data-toggle="modal" data-target="#video-modal" data-video-id="KTJHjd-A1do" style="cursor: pointer;">
+          <div class="uph-sc__video-and-desc__img-play" style="background-image: url(https://www.uph.edu/wp-content/uploads/2018/12/life-around-campus-front.jpg); z-index: 2; position: relative;box-shadow: 0.7em 2em 1.5em 0 rgba(0,0,0,.4); height: 90%; top: -5%; left: -2rem; width: calc(100% + 0rem); background-size: cover; background-position: center;">
+            <div class="btn-wrapper">
+              <a href="https://www.youtube.com/embed/KTJHjd-A1do" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"><img src="https://www.uph.edu/wp-content/themes/uph/images/icons/play.png" alt="Play" class="btn-play"></a>
+            </div>
+
+          </div>
+          <div class="uph-sc__video-and-desc__img-behind" style="background-image: url(https://www.uph.edu/wp-content/uploads/2018/12/life-around-campus-back.jpg); position: absolute; z-index: 1; bottom: -7.5%; width: calc(100% - 3rem); height: 65.5%; left: 3rem; background-size: cover; background-position: center;"></div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex align-items-center">
+        <div class="card" style="border-style:none;">
+          <div class="card-body">
+            <h1 class="card-title" style="font-family: 'Satisfy', cursive; color:red; text-shadow: 2px 2px 1px grey;">Life Around<br>Campus</h1>
+            <p class="card-text" style="font-family: 'Anton', sans-serif; text-shadow: 1px 1px 1px black;">Cozy places, green environment, and adequate public facilities. We can't think of a better surroundings to complete our students' lives!</p>
+            <a href="#" class="card-link" style="font-family: 'Bebas Neue', cursive; text-shadow: 1px 1px 1px black;">——— explore around campus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 d-flex align-items-center">
+        <h1>During the preparation for this competition, we were greatly assisted by seniors who already have participated in similar competitions.</h1>
+      </div>
+      <div class="col-md-6">
+        <img src="https://www.uph.edu/wp-content/uploads/2018/08/INTERNATIONAL.jpg" alt="Image Error" class="img-thumbnail" style="box-shadow: 5px 5px gray;">
+      </div>
+    </div>
+  </div>
+
+  <div class="card-group">
+    <div class="card" style="background-color: red;">
+      <div class="card-body">
+        <h1 class="card-title" style="Color: white; font-weight:bold; text-align: end;">Keep<br>Exploring<span style="color: blue;">.</span></h1>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title" style="font-weight: bold;">360º VIRTUAL<br>TOUR</h5>
+        <p class="card-text">Let us show your around</p>
+        <a href="#" class="btn btn-primary">Take the Tour</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title" style="font-weight: bold;">RECENT NEWS</h5>
+        <p class="card-text">Get full information about update at UPH</p>
+        <a href="#" class="btn btn-primary">See Details</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title" style="font-weight: bold;">CONTACT US</h5>
+        <p class="card-text">More assistance, please do not hesitate to contact us.</p>
+        <a href="#" class="btn btn-primary">Drop a Message</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Java skript -->
+  <script src="js/jquery-3.4.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- <script>
+    $breadcrumb-divider: quote('>');
+  </script> -->
+</body>
+
+</html>
